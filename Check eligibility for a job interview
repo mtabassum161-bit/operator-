@@ -1,0 +1,10 @@
+age = int(input("Enter your age: "))
+qualification = input("Are you a graduate? (yes/no): ")
+
+if age >= 18:
+    if qualification == "yes":
+        print("You are eligible for the interview.")
+    else:
+        print("You are 18+, but graduation is required.")
+else:
+    print("You are not eligible because you are under 18.")
