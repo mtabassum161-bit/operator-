@@ -32,3 +32,11 @@ print("Union:", a.union(b))
 print("Intersection:", a.intersection(b))
 print("Difference:", a.difference(b))
 print("Is subset:", a.issubset(b))
+
+#get() and update()
+student = {"name": "Ali", "age": 20}
+
+print(student.get("name"))
+
+student.update({"age": 21})
+print(student)
